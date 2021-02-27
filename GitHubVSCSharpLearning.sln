@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.808.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubVSCSharpLearning", "GitHubVSCSharpLearning\GitHubVSCSharpLearning.csproj", "{0E3CEBE6-5762-4661-9150-7030056F456C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "New Folder", "New Folder", "{71724565-ED94-42F3-82E0-36C78CEB5DEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypesInCSharp", "first_application\TypesInCSharp.csproj", "{6DCF9997-BC8E-4780-8B8B-6E693E5D7CB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0E3CEBE6-5762-4661-9150-7030056F456C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0E3CEBE6-5762-4661-9150-7030056F456C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0E3CEBE6-5762-4661-9150-7030056F456C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0E3CEBE6-5762-4661-9150-7030056F456C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DCF9997-BC8E-4780-8B8B-6E693E5D7CB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DCF9997-BC8E-4780-8B8B-6E693E5D7CB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DCF9997-BC8E-4780-8B8B-6E693E5D7CB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DCF9997-BC8E-4780-8B8B-6E693E5D7CB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8F172599-F297-4CFE-AB22-8B3F769A7C1C}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6DCF9997-BC8E-4780-8B8B-6E693E5D7CB3} = {71724565-ED94-42F3-82E0-36C78CEB5DEE}
 	EndGlobalSection
 EndGlobal
