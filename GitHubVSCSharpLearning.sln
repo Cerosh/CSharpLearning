@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Types", "Types", "{71724565
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypesInCSharp", "first_application\TypesInCSharp.csproj", "{6DCF9997-BC8E-4780-8B8B-6E693E5D7CB3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Methods", "Methods", "{26C10729-04BB-4AAE-8CE6-09194BBB7B06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodsInCSharp", "MethodsInCSharp\MethodsInCSharp.csproj", "{3FD01696-78EC-40FC-9D93-1E8B620B68E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +21,10 @@ Global
 		{6DCF9997-BC8E-4780-8B8B-6E693E5D7CB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DCF9997-BC8E-4780-8B8B-6E693E5D7CB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DCF9997-BC8E-4780-8B8B-6E693E5D7CB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FD01696-78EC-40FC-9D93-1E8B620B68E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FD01696-78EC-40FC-9D93-1E8B620B68E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FD01696-78EC-40FC-9D93-1E8B620B68E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FD01696-78EC-40FC-9D93-1E8B620B68E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,5 +34,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6DCF9997-BC8E-4780-8B8B-6E693E5D7CB3} = {71724565-ED94-42F3-82E0-36C78CEB5DEE}
+		{3FD01696-78EC-40FC-9D93-1E8B620B68E8} = {26C10729-04BB-4AAE-8CE6-09194BBB7B06}
 	EndGlobalSection
 EndGlobal

@@ -1,10 +1,12 @@
 ﻿using System;
+using static TypesInCSharp.TypeCasting;
+
 namespace TypesInCSharp
 {
     public class EmptyClass
     {
-       
 
+       
 
         static void Main(string[] args)
         {
@@ -21,7 +23,13 @@ namespace TypesInCSharp
             Console.WriteLine($"Boolean : {myBool}");
             string myText = "Hello";  
             Console.WriteLine($"String :{myText}");
-            Console.Read();
+
+            Console.WriteLine($"Automatic casting: int to double: {implicitCasting()}");
+
+            Console.WriteLine($"Manual casting : double to int: {explicitCasting()}");
+            Console.WriteLine($"convert bool to string: {Convert.ToString(conversionMethods())}");
+            Console.WriteLine("Finding the type of variable: " + varType());
+
         }
     }
 }
