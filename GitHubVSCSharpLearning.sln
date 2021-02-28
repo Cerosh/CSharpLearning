@@ -15,6 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03ConditionalStatements", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConditionalStatementsInCSharp", "ConditionalStatementsInCSharp\ConditionalStatementsInCSharp.csproj", "{0EC8204C-65E0-49A4-8913-071CD7C34EA4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04Loops", "04Loops", "{8FCD69E7-5DB8-47E0-B66B-C1E56EA97E40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopsInCSharp", "LoopsInCSharp\LoopsInCSharp.csproj", "{40F9FDC8-2098-431D-ADD9-95936832B87A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,10 @@ Global
 		{0EC8204C-65E0-49A4-8913-071CD7C34EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EC8204C-65E0-49A4-8913-071CD7C34EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EC8204C-65E0-49A4-8913-071CD7C34EA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40F9FDC8-2098-431D-ADD9-95936832B87A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F9FDC8-2098-431D-ADD9-95936832B87A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40F9FDC8-2098-431D-ADD9-95936832B87A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40F9FDC8-2098-431D-ADD9-95936832B87A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,5 +52,6 @@ Global
 		{3FD01696-78EC-40FC-9D93-1E8B620B68E8} = {26C10729-04BB-4AAE-8CE6-09194BBB7B06}
 		{0BB4C3A9-7BA9-4464-BD12-1643BD857F0C} = {71724565-ED94-42F3-82E0-36C78CEB5DEE}
 		{0EC8204C-65E0-49A4-8913-071CD7C34EA4} = {55B405A8-D49C-479C-8C1E-A4EBE37BEAC2}
+		{40F9FDC8-2098-431D-ADD9-95936832B87A} = {8FCD69E7-5DB8-47E0-B66B-C1E56EA97E40}
 	EndGlobalSection
 EndGlobal
