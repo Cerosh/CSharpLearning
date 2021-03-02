@@ -6,6 +6,7 @@
 whereas don't use it in case of explicit implementation.Implement interface explicitly using InterfaceName.MemberName.
 5. An interface can inherit one or more interfaces.
 */
+
 using System;
 namespace InterfacesInCSharp
 {

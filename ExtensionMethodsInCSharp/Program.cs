@@ -5,6 +5,7 @@ The first parameter of the extension method must be of the type for which the ex
 preceded by the this keyword.
 Extension methods can be used anywhere in the application by including the namespace of the extension method.
  */
+
 using System;
 namespace ExtensionMethodsInCSharp
 {
